@@ -15,3 +15,11 @@ Copy paste 'github.com/labstack/echo/...' into imports (... is the version numbe
 4. build or run your code:
 --> stores dep version in go.mod
 --> stores dep checksum in go.sum
+
+5. Initialize .git in Project_directory:
+```
+$ git init
+$ git remote add origin [http link for GitHub repository]
+$ ga .; gc -m "First commit"; git push -u origin master
+```
+Use ```$ git remote -v``` to check that you have linked the repo
